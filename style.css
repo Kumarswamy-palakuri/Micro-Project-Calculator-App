@@ -1,10 +1,6 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
 body {
   font-family: Arial, sans-serif;
-  background-color: #2C3E50;
+  background-color: #3B4664; /* Match background color */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,20 +9,20 @@ body {
 }
 
 .calculator {
-  background-color: #34495E;
+  /* background-color: #252D44; Calculator background */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
   text-align: center;
 }
 
 .display {
-  background-color: #2C3E50;
+  background-color: #181F32; /* Display background */
   color: white;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: right;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 5px;
 }
 
@@ -34,35 +30,39 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #222b45;
 }
 
 button {
-  background-color: #ECF0F1;
+  background-color: #EAE3DC; /* Button default color */
   border: none;
-  padding: 15px;
+  padding: 5px 13px ;
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
+  color: #252D44; /* Button text color */
 }
 
 button:active {
-  background-color: #BDC3C7;
+  background-color: #D2CDCD; /* Button pressed color */
 }
 
 .del {
-  background-color: #95A5A6;
+  background-color: #647198; /* DEL button color */
   color: white;
 }
 
 .reset {
-  background-color: #7F8C8D;
+  background-color: #647198; /* RESET button color */
   color: white;
   grid-column: span 2;
 }
 
 .equal {
-  background-color: #E74C3C;
+  background-color: #D03F2F; /* Equal button color */
   color: white;
   grid-column: span 2;
 }

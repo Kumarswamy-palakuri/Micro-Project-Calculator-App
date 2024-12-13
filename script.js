@@ -7,7 +7,7 @@ const display = document.getElementById('display');
     const appendOperator = (operator) => {
       const lastChar = display.innerText.trim().slice(-1);
       if (!'+-/*'.includes(lastChar)) {
-        display.innerText += `${operator} `;
+        display.innerText += `${operator}`;
       }
     };
 
