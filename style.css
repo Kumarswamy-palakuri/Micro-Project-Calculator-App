@@ -20,9 +20,10 @@ body {
   background-color: #181F32; /* Display background */
   color: white;
   font-size: 1.7rem;
+  font-weight: 700;
   text-align: right;
   margin-bottom: 20px;
-  padding: 15px;
+  padding:19px 15px;
   border-radius: 5px;
 }
 
@@ -38,13 +39,17 @@ body {
 button {
   background-color: #EAE3DC; /* Button default color */
   border: none;
-  padding: 5px 13px ;
+  padding: 5px 10px ;
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   color: #252D44; /* Button text color */
 }
+
+ /* button:hover {
+  background-color: #D2CDCD; 
+}  */
 
 button:active {
   background-color: #D2CDCD; /* Button pressed color */
@@ -58,6 +63,7 @@ button:active {
 .reset {
   background-color: #647198; /* RESET button color */
   color: white;
+  font-size: 1rem;
   grid-column: span 2;
 }
 
